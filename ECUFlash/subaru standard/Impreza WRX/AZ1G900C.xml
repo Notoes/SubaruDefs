@@ -21,6 +21,219 @@
 
 	<table name="Speed Limiting C (Throttle)" address="dc65c"/>
 
+	<table name="(P0000) PASS CODE (NO DTC DETECTED)_" address="773c8"/>
+
+	<table name="Injector Timing Compensation (Atmospheric Pressure)" address="cab6c">
+		<table name="Manifold Pressure" address="cab24"/>
+		<table name="Engine Speed" address="cab64"/>
+	</table>
+
+	<table name="Injector Timing Compensation (ECT)" address="c7f9c">
+		<table name="Coolant Temp" address="c7e20"/>
+	</table>
+
+	<table name="Injector Timing Crank End Angle (TGV Closed)" address="cabf0">
+		<table name="Engine Load" address="cab8c" scaling="EngineLoadDelta(g/rev)1"/>
+		<table name="Engine Speed" address="cabcc"/>
+	</table>
+
+	<table name="Injector Timing Crank End Angle (TGV Open)" address="cace4">
+		<table name="Engine Load" address="cac80"/>
+		<table name="Engine Speed" address="cacc0"/>
+	</table>
+
+	<table name="Injector Timing Minimum Crank End Angle" address="c801c">
+		<table name="Engine Load" address="c7e20"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1A Base Adder" address="c9308">
+		<table name="psi absolute" address="c92d4"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1A MAP Based Correction Neg Delta" address="c9394">
+		<table name="psi absolute" address="c9368" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1A MAP Based Correction Pos Delta" address="c9350">
+		<table name="psi absolute" address="c9324" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1A RPM Correction Neg Delta Neg Tip in Higher RPM" address="c8158">
+		<table name="Engine Speed" address="c8130"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1B RPM Correction Neg Delta" address="c9024">
+		<table name="Engine Speed" address="c8fe4"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1B RPM Correction Pos Delta" address="c8fc4">
+		<table name="Engine Speed" address="c8f84"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1C Wall Temp Correction Neg Delta" address="c8f62">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1C Wall Temp Correction Pos Delta" address="c8ee2">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1 MAP Delta Deadzone Abs MAP Delta" address="c94dc" scaling="EngineLoad(g/rev)">
+		<table name="Engine Speed" address="c94bc"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1 MAP Delta Limit Max Min" address="c76ac">
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A Base Adder MAP Delta Multiplier Pos Delta" address="c769c">
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A Base Adder MAP Delta Multiplier Neg Delta" address="c76a0">
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A MAP Based Correction Neg Delta" address="c941c">
+		<table name="psi absolute" address="c93f0" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A MAP Based Correction Pos Delta" address="c93d8">
+		<table name="psi absolute" address="c93ac" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A RPM Correction Neg Delta Neg Tip in Higher RPM" address="c818c">
+		<table name="Engine Speed" address="c8164"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2B RPM Correction Neg Delta" address="c9204">
+		<table name="Engine Speed" address="c91c4"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2B RPM Correction Pos Delta" address="c90c4">
+		<table name="Engine Speed" address="c9084"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2C Wall Temp Correction Neg Delta" address="c9064">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2C Wall Temp Correction Pos Delta" address="cc7f0">
+		<table name="Coolant Temperature" address="c7e20"/>
+		<table name="psi absolute" address="cc7e4" elements="3" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2 MAP Delta Deadzone Limit Max Min" address="c76c4">
+	</table>
+
+	<table name="Wall Wetting Comp Group 2 MAP Delta Smoothing Factor Neg Delta" address="c76b8">
+	</table>
+
+	<table name="Wall Wetting Comp Group 2 MAP Delta Smoothing Factor Pos Delta" address="c76b4">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3A Base Adder MAP Delta Multiplier Neg Delta" address="c76a8">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3A Base Adder MAP Delta Multiplier Pos Delta" address="c76a4">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3A MAP Based Correction Neg Delta" address="c94a4">
+		<table name="psi absolute" address="c9478" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3A MAP Based Correction Pos Delta" address="c9460">
+		<table name="psi absolute" address="c9434" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3B RPM Correction Neg Delta" address="c9264">
+		<table name="Engine Speed" address="c9224"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3B RPM Correction Pos Delta" address="c9124">
+		<table name="Engine Speed" address="c90e4"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3C Wall Temp Correction Neg Delta" address="c9184">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3C Wall Temp Correction Pos Delta" address="c9164">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3 MAP Delta Deadzone Limit Max Min" address="c76cc">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3 MAP Delta Smoothing Factor Neg Delta" address="c76c0">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3 MAP Delta Smoothing Factor Pos Delta" address="c76bc">
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Decay Delay">
+		<table name="Coolant Temperature"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Decay Delay_" address="c81a6">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 High Speed Decay Initial Start A" address="c956c">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 High Speed Decay Initial Start B" address="c95ac">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Low Speed Decay Initial Start A" address="c954c">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Low Speed Decay Initial Start B" address="c958c">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Low Speed Decay Step Value" address="c950c" scaling="Tau9">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 High Speed Decay Step Value_" address="c952c">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Ignition Timing Compensation MAP Delta (Clutch Depressed)" address="ce6dc">
+		<table name="Manifold Pressure" address="ce69c" elements="16"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target In Error Range A" address="d02e8">
+		<table name="Idle Speed Error" address="d02a0"/>
+		<table name="Engine Speed Delta" address="d02c4"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target In Error Range B" address="d0384">
+		<table name="Idle Speed Error" address="d033c"/>
+		<table name="Engine Speed Delta" address="d0360"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target Out of Error Range A" address="d0238">
+		<table name="Idle Speed Error" address="d0208" elements="9"/>
+		<table name="Idle Speed Target" address="d022c" elements="3"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target Out of Error Range B" address="d0284">
+		<table name="Idle Speed Error" address="d0254" elements="9"/>
+		<table name="Idle Speed Target" address="d0278" elements="3"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target Load Change A" address="d0404">
+		<table name="Engine Speed Delta" address="d03d8"/>
+		<table name="Idle Speed Target" address="d03fc"/>
+	</table>
+
+	<table name="Ignition Timing Compensation Idle Target Load Change B" address="d0444">
+		<table name="Engine Speed Delta" address="d0418"/>
+		<table name="Idle Speed Target" address="d043c"/>
+	</table>
+
 	<table name="Cluster Display Fuel Consumption Correction" address="c10d0">
 	</table>
 
@@ -66,38 +279,15 @@
 
 	<table name="A/F #1 Learning Min Threshold" address="c78c8"/>
 
+	<table name="AF 3 CL Target Compensation Limits" address="31dcc">
+	</table>
+
 	<table name="AF 3 Correction Limits" address="2fe4c">
 	</table>
 
-	<table name="Tau Input A Falling Load Activation A" address="c8ee2">
-		<table name="Coolant Temperature" address="c7e20"/>
-	</table>
-
-	<table name="Tau Input A Falling Load Activation B" address="c8f02">
-		<table name="Coolant Temperature" address="c7e20"/>
-	</table>
-
-	<table name="Tau Input A Falling Load Activation C" address="c8f22">
-		<table name="Coolant Temperature" address="c7e20"/>
-	</table>
-
-	<table name="Tau Input B Activation" address="c9394">
-		<table address="c9368"/>
-	</table>
-
-	<table name="Tau Input A Rising Load Activation A" address="cc7f0">
-		<table name="Coolant Temperature" address="c7e20"/>
-		<table name="Manifold Pressure" address="cc7e4"/>
-	</table>
-
-	<table name="Tau Input A Rising Load Activation B" address="cc85c">
-		<table name="Coolant Temperature" address="c7e20"/>
-		<table name="Manifold Pressure" address="cc850"/>
-	</table>
-
-	<table name="Tau Input A Rising Load Activation C" address="cc8c8">
-		<table name="Coolant Temperature" address="c7e20"/>
-		<table name="Manifold Pressure" address="cc8bc"/>
+	<table name="Front AF Sensor Smoothing Table" address="d4254">
+		<table name="Smoothed MAF" address="d4234"/>
+		<table name="Engine Load" address="d4244"/>
 	</table>
 
 	<table name="Overrun Fueling RPM Resume Threshold" address="ca67c">
@@ -127,9 +317,26 @@
 		<table name="Engine Speed Delta" address="d3184" elements="9"/>
 	</table>
 
+	<table name="Idle Airflow Min Target Decel Initial Idle Min Airflow A" address="d15dc"/>
+
+	<table name="Idle Airflow Min Target Decel Initial Idle Min Airflow B" address="d15e0"/>
+
+	<table name="Idle Airflow Min Target Decel Initial Idle Activation Max Mode Counter" address="d1460"/>
+
 	<table name="Idle Airflow Min Target Decel Ramping Adder Decreasing" address="d1600"/>
 
 	<table name="Idle Airflow Min Target Decel Ramping Adder Increasing" address="d1604"/>
+
+	<table name="Target Throttle Angle Idle Airflow Target" address="dca8c" scaling="%1">
+		<table name="Target Throttle Plate Position %" address="dca2c" type="X Axis" elements="24"/>
+	</table>
+
+	<table name="Target Throttle Angle Idle Airflow Target Base Minimum" address="d3474">
+		<table name="Engine Speed" address="d33f4" elements="16"/>
+		<table name="Requested Torque" address="d3434" elements="16"/>
+	</table>
+
+	<table name="Target Throttle Angle Idle Airflow Target Base Minimum Applied Maximum" address="d1978"/>
 
 	<table name="Hotstart Enrichment Decay Delay" address="c74fe"/>
 
@@ -299,6 +506,37 @@
 		<table name="'Timing Compensation (MRP)' + 'Timing Compensation (IAT)'" address="c8514"/>
 	</table>
 
+	<table name="Front Oxygen Sensor Scaling" address="d401c">
+		<table name="Front Oxygen Sensor" address="d3fe8"/>
+	</table>
+
+	<table name="Front Oxygen Sensor Rich Limit" address="21a90">
+	</table>
+
+	<table name="Front Oxygen Sensor Compensation (Atm. Pressure)" address="c30b0">
+		<table name="Atmospheric Pressure" address="c30a0"/>
+	</table>
+
+	<table name="CL Fueling Target Compensation A (Load)" address="ccd58">
+		<table name="Engine Load" address="ccd04"/>
+		<table name="Engine Speed" address="ccd30" elements="10"/>
+	</table>
+
+	<table name="CL Fueling Target Compensation B (Load)" address="ccfba">
+		<table name="Engine Load" address="cce34"/>
+		<table name="Engine Speed" address="cce60" elements="10"/>
+	</table>
+
+	<table name="CL Fueling Target Compensation Imm. Cruise (ECT)" address="ccb08">
+		<table name="Coolant Temperature" address="c7e20"/>
+		<table name="Engine Load" address="ccafc"/>
+	</table>
+
+	<table name="CL Fueling Target Compensation Imm. Non-Cruise (ECT)" address="ccb74">
+		<table name="Coolant Temperature" address="c7e20"/>
+		<table name="Engine Load" address="ccb68"/>
+	</table>
+
 	<table name="CL to OL Delay_" address="c74f6">
 	</table>
 
@@ -339,6 +577,15 @@
 	</table>
 
 	<table name="CL Delay Maximum Engine Speed (Neutral)" address="c79f8">
+	</table>
+
+	<table name="CL Delay Throttle Atm. Pressure Thresholds" address="c7a2c">
+	</table>
+
+	<table name="CL Delay Maximum (Throttle) (Low Atm. Pressure)" address="c7a34">
+	</table>
+
+	<table name="CL Delay Maximum (Throttle) (High Atm. Pressure)" address="c7a3c">
 	</table>
 
 	<table name="Injector Latency_" address="cc7c4">
@@ -453,9 +700,34 @@
 		<table name="Coolant Temperature" address="c7e20"/>
 	</table>
 
+	<table name="Tip-in Enrichment Compensation D (ECT) Activation" address="c7ce8">
+	</table>
+
+	<table name="Tip-in Enrichment Disable Applied Counter Threshold A (ECT)" address="c8962">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Tip-in Enrichment Disable Applied Counter Threshold B (ECT)" address="c8972">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Tip-in Enrichment Applied Counter Reset" address="c74a0">
+	</table>
+
+	<table name="Tip-in Enrichment Disable Throttle Cumulative Threshold A (ECT)" address="ca60c">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Tip-in Enrichment Disable Throttle Cumulative Threshold B (ECT)" address="ca62c">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Tip-in Throttle Cumulative Reset" address="c74a1">
+	</table>
+
 	<table name="Min Primary Base Enrichment 1 Cruise" address="cb0f8">
 		<table name="Coolant Temperature" address="c7e20"/>
-		<table name="Engine Load" address="cb034" elements="9"/>
+		<table name="Engine Load" address="cb0d4" elements="9"/>
 	</table>
 
 	<table name="Min Primary Base Enrichment 1 Non-Cruise" address="cb054">
@@ -472,6 +744,10 @@
 
 	<table name="A/F Learning #1 Airflow Ranges" address="c78cc">
 	</table>
+
+	<table name="AF Learning 1 Range Smoothing Activation" address="c78b8"/>
+
+	<table name="AF Learning 1 Range Smoothing Factor" address="c78c4"/>
 
 	<table name="MAF Limit (Maximum)" address="c2c0c">
 	</table>
@@ -619,6 +895,37 @@
 	<table name="Timing Comp Minimum Coolant Temp (Per Cylinder)" address="ce308">
 	</table>
 
+	<table name="Timing Compensation Per Gear (1st)" address="d063c">
+		<table name="Engine Load" address="d061c" elements="5"/>
+		<table name="Engine Speed" address="d0630"/>
+	</table>
+
+	<table name="Timing Compensation Per Gear (2nd)" address="d066c">
+		<table name="Engine Load" address="d064c" elements="5"/>
+		<table name="Engine Speed" address="d0660"/>
+	</table>
+
+	<table name="Timing Compensation Per Gear (3rd)" address="d069c">
+		<table name="Engine Load" address="d067c" elements="5"/>
+		<table name="Engine Speed" address="d0690"/>
+	</table>
+
+	<table name="Timing Compensation Per Gear (4th)" address="d06cc">
+		<table name="Engine Load" address="d06ac" elements="5"/>
+		<table name="Engine Speed" address="d06c0"/>
+	</table>
+
+	<table name="Timing Compensation Per Gear (5th)" address="d06fc">
+		<table name="Engine Load" address="d06dc" elements="5"/>
+		<table name="Engine Speed" address="d06f0"/>
+	</table>
+
+	<table name="Timing Compensation Per Gear Activation (RPM)" address="ce2a0">
+	</table>
+
+	<table name="Timing Compensation Per Gear Activation (Load)" address="ce2a8">
+	</table>
+
 	<table name="Feedback Correction Range (RPM)" address="ce314">
 	</table>
 
@@ -686,6 +993,64 @@
 	<table name="Advance Multiplier Step Value" address="ce44c">
 	</table>
 
+	<table name="Knock Threshold Filter Final Limit Minimum" address="cf758">
+		<table name="Volts" address="cf730"/>
+	</table>
+
+	<table name="Knock Threshold Filter Final Limit Maximum Cylinder 1" address="cf7a8">
+		<table name="Volts" address="cf780"/>
+	</table>
+
+	<table name="Knock Threshold Filter Final Limit Maximum Cylinder 2" address="cf7f8">
+		<table name="Volts" address="cf7d0"/>
+	</table>
+
+	<table name="Knock Threshold Filter Final Limit Maximum Cylinder 3" address="cf848">
+		<table name="Volts" address="cf820"/>
+	</table>
+
+	<table name="Knock Threshold Filter Final Limit Maximum Cylinder 4" address="cf898">
+		<table name="Volts" address="cf870"/>
+	</table>
+
+	<table name="Knock Threshold Filter Background Noise interval Weighting Factor Low RPM Delta" address="ceff0">
+		<table name="Engine Speed" address="cefd4"/>
+	</table>
+
+	<table name="Knock Threshold Filter Background Noise interval Weighting Factor High RPM Delta" address="cf01c">
+		<table name="Engine Speed" address="cf000"/>
+	</table>
+
+	<table name="Background Noise Delta Smoothing Weighting Factor RPM Delta Threshold Immediate" address="ce2c8"/>
+
+	<table name="Background Noise Delta Smoothing Weighting Factor RPM Delta Threshold Short" address="ce2cc"/>
+
+	<table name="Background Noise Base Smoothing Factor High Rpm Delta" address="ce2d4"/>
+
+	<table name="Background Noise Base Smoothing Factor Low Rpm Delta" address="ce2dc"/>
+
+	<table name="Background Noise Delta Weighting Factor High RPM Delta" address="ce2d8"/>
+
+	<table name="Background Noise Delta Weighting Factor Low RPM Delta" address="ce2d0"/>
+
+	<table name="Knock Threshhold Filter Background Noise Interval Weighting Factor RPM Delta Short" address="ce2e0"/>
+
+	<table name="Knock Threshhold Filter Background Noise Interval Weighting Factor High RPM Delta Limit Maximum" address="ce2e4"/>
+
+	<table name="Knock Threshhold Filter Background Noise Interval Weighting Factor High RPM Delta RPM Delta Ratio" address="ce2e8"/>
+
+	<table name="Knock threshhold Filter Final Limit Maximum Modify Pre Final Limit" address="ce2ec"/>
+
+	<table name="Knock Threshhold Level Final Limit Minimum" address="ce2f0"/>
+
+	<table name="Knock Threshhold Level Final Limit Maximum" address="ce2f4"/>
+
+	<table name="Filter Noise Level Weighting Factor" address="ce2fc"/>
+
+	<table name="Filter Reference Maximum Range Hysteresis Correction Knock Sensor Output Modify" address="cdf69"/>
+
+	<table name="Knock Detection Minimum Engine Run Time" address="cdfb2"/>
+
 	<table name="Intake Cam Advance Angle Cruise (AVCS)" address="d5b30">
 		<table name="Engine Load" address="d5aa8" elements="18"/>
 		<table name="Engine Speed" address="d5af0" elements="16"/>
@@ -748,6 +1113,14 @@
 	<table name="Speed Limiting B (Throttle)" address="dc650">
 	</table>
 
+	<table name="Intake Temp Sensor Scaling" address="d3d40">
+		<table name="Intake Temp Sensor" address="d3cc8"/>
+	</table>
+
+	<table name="Coolant Temp Sensor Scaling" address="d3c58">
+		<table name="Coolant Temp Sensor" address="d3be8"/>
+	</table>
+
 	<table name="Idle Speed Target A" address="d2034">
 		<table name="Coolant Temperature" address="d1a5c"/>
 	</table>
@@ -761,8 +1134,6 @@
 	</table>
 
 	<table name="(P0000) PASS CODE (NO DTC DETECTED)" address="773c7"/>
-
-	<table name="(P0000) PASS CODE (NO DTC DETECTED)_" address="773c8"/>
 
 	<table name="(P0011) CAMSHAFT POS. - TIMING OVER-ADVANCED 1" address="773ab"/>
 
