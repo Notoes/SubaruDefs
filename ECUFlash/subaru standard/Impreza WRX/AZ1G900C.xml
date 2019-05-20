@@ -69,35 +69,158 @@
 	<table name="AF 3 Correction Limits" address="2fe4c">
 	</table>
 
-	<table name="Tau Input A Falling Load Activation A" address="c8ee2">
+	<table name="Wall Wetting Comp Group 1A Base Adder" address="c9308">
+		<table name="psi absolute" address="c92d4"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1A MAP Based Correction Neg Delta" address="c9394">
+		<table name="psi absolute" address="c9368" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1A MAP Based Correction Pos Delta" address="c9350">
+		<table name="psi absolute" address="c9324" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1A RPM Correction Neg Delta Neg Tip in Higher RPM" address="c8158">
+		<table name="Engine Speed" address="c8130"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1B RPM Correction Neg Delta" address="c9024">
+		<table name="Engine Speed" address="c8fe4"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1B RPM Correction Pos Delta" address="c8fc4">
+		<table name="Engine Speed" address="c8f84"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1C Wall Temp Correction Neg Delta" address="c8f62">
 		<table name="Coolant Temperature" address="c7e20"/>
 	</table>
 
-	<table name="Tau Input A Falling Load Activation B" address="c8f02">
+	<table name="Wall Wetting Comp Group 1C Wall Temp Correction Pos Delta" address="c8ee2">
 		<table name="Coolant Temperature" address="c7e20"/>
 	</table>
 
-	<table name="Tau Input A Falling Load Activation C" address="c8f22">
+	<table name="Wall Wetting Comp Group 1 MAP Delta Deadzone Abs MAP Delta" address="c94dc" scaling="EngineLoad(g/rev)">
+		<table name="Engine Speed" address="c94bc"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 1 MAP Delta Limit Max Min" address="c76ac">
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A Base Adder MAP Delta Multiplier Pos Delta" address="c769c">
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A Base Adder MAP Delta Multiplier Neg Delta" address="c76a0">
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A MAP Based Correction Neg Delta" address="c941c">
+		<table name="psi absolute" address="c93f0" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A MAP Based Correction Pos Delta" address="c93d8">
+		<table name="psi absolute" address="c93ac" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2A RPM Correction Neg Delta Neg Tip in Higher RPM" address="c818c">
+		<table name="Engine Speed" address="c8164"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2B RPM Correction Neg Delta" address="c9204">
+		<table name="Engine Speed" address="c91c4"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2B RPM Correction Pos Delta" address="c90c4">
+		<table name="Engine Speed" address="c9084"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 2C Wall Temp Correction Neg Delta" address="c9064">
 		<table name="Coolant Temperature" address="c7e20"/>
 	</table>
 
-	<table name="Tau Input B Activation" address="c9394">
-		<table address="c9368"/>
+	<table name="Wall Wetting Comp Group 2C Wall Temp Correction Pos Delta" address="cc7f0">
+		<table name="Coolant Temperature" address="c7e20"/>
+		<table name="psi absolute" address="cc7e4" elements="3" scaling="TauMrp"/>
 	</table>
 
-	<table name="Tau Input A Rising Load Activation A" address="cc7f0">
-		<table name="Coolant Temperature" address="c7e20"/>
-		<table name="Manifold Pressure" address="cc7e4"/>
+	<table name="Wall Wetting Comp Group 2 MAP Delta Deadzone Limit Max Min" address="c76c4">
 	</table>
 
-	<table name="Tau Input A Rising Load Activation B" address="cc85c">
-		<table name="Coolant Temperature" address="c7e20"/>
-		<table name="Manifold Pressure" address="cc850"/>
+	<table name="Wall Wetting Comp Group 2 MAP Delta Smoothing Factor Neg Delta" address="c76b8">
 	</table>
 
-	<table name="Tau Input A Rising Load Activation C" address="cc8c8">
+	<table name="Wall Wetting Comp Group 2 MAP Delta Smoothing Factor Pos Delta" address="c76b4">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3A Base Adder MAP Delta Multiplier Neg Delta" address="c76a8">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3A Base Adder MAP Delta Multiplier Pos Delta" address="c76a4">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3A MAP Based Correction Neg Delta" address="c94a4">
+		<table name="psi absolute" address="c9478" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3A MAP Based Correction Pos Delta" address="c9460">
+		<table name="psi absolute" address="c9434" scaling="TauMrp"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3B RPM Correction Neg Delta" address="c9264">
+		<table name="Engine Speed" address="c9224"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3B RPM Correction Pos Delta" address="c9124">
+		<table name="Engine Speed" address="c90e4"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3C Wall Temp Correction Neg Delta" address="c9184">
 		<table name="Coolant Temperature" address="c7e20"/>
-		<table name="Manifold Pressure" address="cc8bc"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3C Wall Temp Correction Pos Delta" address="c9164">
+		<table name="Coolant Temperature" address="c7e20"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 3 MAP Delta Deadzone Limit Max Min" address="c76cc">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3 MAP Delta Smoothing Factor Neg Delta" address="c76c0">
+	</table>
+
+	<table name="Wall Wetting Comp Group 3 MAP Delta Smoothing Factor Pos Delta" address="c76bc">
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Decay Delay">
+		<table name="Coolant Temperature"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Decay Delay_" address="c81a6">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 High Speed Decay Initial Start A" address="c956c">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 High Speed Decay Initial Start B" address="c95ac">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Low Speed Decay Initial Start A" address="c954c">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Low Speed Decay Initial Start B" address="c958c">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 Low Speed Decay Step Value" address="c950c" scaling="Tau9">
+		<table name="Coolant Temperature" address="c7e60"/>
+	</table>
+
+	<table name="Wall Wetting Comp Group 4 High Speed Decay Step Value_" address="c952c">
+		<table name="Coolant Temperature" address="c7e60"/>
 	</table>
 
 	<table name="Overrun Fueling RPM Resume Threshold" address="ca67c">
